@@ -5,11 +5,121 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="https://html5-templates.com/" />
-    <title>Bootstrap Template With Sticky Menu</title>
+    <title>Ricardo Gonzalez Penuela</title>
     <meta name="description" content="Simplified Bootstrap template with sticky menu">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/sticky-menu.css" rel="stylesheet">
+    <link href="css/materialize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+      <!-- Compiled and minified CSS -->
+  
+            
 </head>
+<style>
+
+  * {
+   box-sizing: border-box; 
+  }
+  body {
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+  }
+  #main > article {
+    flex: 1;
+  }
+  #main > nav, 
+  aside {
+
+    background: #00acee;
+  }
+  #main > nav {
+    order: -1;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }
+
+  .navbar-brand{
+    color:black !important;
+  }
+  .collection-item {
+    color: black !important;
+  }
+  p{
+    padding:2rem;
+    font-size: 1.2rem;
+    text-align: left;
+
+}
+#sidep{
+    padding:0;
+    border-top-style: solid;
+    border-color: #00acee;
+    border-bottom-style: solid;
+    padding-top: 10px;
+    padding-bottom:10px;
+    
+
+    
+}
+#imagecap{
+    font-size: 1rem;
+}
+#mainbody{
+    padding:0;
+    border-top-style: solid;
+    border-color: #00acee;
+    border-left-style: solid;
+    padding-top: 10px;
+    padding-left:10px;
+    
+
+    
+}
+#shiri{
+    width:auto;
+    height:auto;
+    max-width: 290px;
+
+
+}
+#tactiledimg{
+    margin-top: 2px
+}
+
+  @media screen and (min-device-width : 320px)
+and (max-device-width : 600px){
+  .about-section {
+    margin-top: 1920px;
+}
+p{
+    padding:1rem;
+    font-size: 1.5rem;
+    
+}
+
+#sidep{
+    padding:1rem;
+    text-align: justify;
+    
+}
+
+
+
+
+
+
+}
+</style>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
@@ -20,7 +130,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Welcome</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Ricardo G. Penuela</a>
             </div>
 
             <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -29,66 +139,83 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="./index.html">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#whatwedo">What We Do</a>
+                        <a class="page-scroll" href="./projects.html">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="https://github.com/rgonzalezp/My-true-CV/raw/master/Ricardo_Gonzalez_Penuela_CV.pdf">CV</a>
                     </li>
                 </ul>
             </div>	<!-- .navbar-collapse -->
         </div>		<!-- .container -->
     </nav>
-    <!-- Welcome   -->
-    <section id="welcome" class="welcome-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Bootstrap Sticky Scrolling Menu</h1>
-                    <p>Responsive one-page scrolling template with sticky menu on the top of the page. The active page gets highlighted as the user scrolls on the page or selects an option in the menu.</p>
-					<p>A back to top arrow fades in as the user starts scrolling down the page which takes back to the welcome screen with one click.</p>
-					<p>You can edit and publish this template but please leave a reference to <a href="https://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a>. Thank You!</p>
-					<p>&nbsp;</p>
-                    <a class="btn btn-primary page-scroll" href="#about">Click To Scroll Down!</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- About -->
-    <section id="about" class="about-section">
+    <section id="about" class="welcome-section">
+    <div class="container">
+        <div  class="row">
+            <div class="col-sm-12 col-md-3">
+            <h5>Some of my Research Interests:</h5>
+                <ul class="collection">
+                  <a href="#projects" class="page-scroll collection-item">Accessibility</a>
+                  <a href="#projects" class="page-scroll collection-item">Human Computer Interaction</a>
+                  <a href="#projects" class="page-scroll collection-item">Artificial Intelligence</a>
+                  <a href="#projects" class="page-scroll collection-item">Crowdsourcing</a>
+                  <a href="#projects" class="page-scroll collection-item">Machine Learning</a>
+                  <a href="#projects" class="page-scroll collection-item">Data visualization</a>
+                </ul>
+            <h5>Nudge me to chat, collaborate or whatever you want:</h5>
+                  <a href="https://twitter.com/re_gonzalez10" class="fa fa-twitter"></a>
+                  <a href="https://www.linkedin.com/in/ricardo-enrique-gonzalez-penuela-b6ab04155/" class="fa fa-linkedin"></a>
+                  <a href="https://github.com/rgonzalezp" class="fa fa-github"></a>
+            </div>
+            <div class="col-md-7">
+              <h3>Hello there!</h3>
+              <p id="mainbody">
+                  I am Senior undergraduate Computer and Systems Engineer at <a href="https://sistemas.uniandes.edu.co/en/">Universidad de Los Andes</a>, Bogota, Colombia. PhD candidate for Fall 2020.
+                  <br>
+                  My main interests lie on creating accessible technologies, creating systems that provide accessible content and innovating the mediums of interaction that visually impaired people use.
+                  <br>
+                  <br>
+                  I have been very lucky to be mentored by multiple Professors in research and Accessibility, to mention some: <a href="http://johnguerra.co/">John Guerra-Gomez</a>, who introduced me to this wonderful world of creating Accessible solutions that have real-life impact on people daily life and <a href="http://shiriazenkot.com/">Shiri Azenkot</a>, who has further developed my  interests working at the Enhancing Ability Lab and introducing me to her first PhD student, <a href="http://leiatlarge.com/">Lei Shi</a>. Lei has been a friend, an advisor, a mentor and an example to follow. He has helped me a lot with my research work and my career goals. I am really grateful to Shiri for introducing him to me.
+                  <br>
+                  <br>
+                  At this moment, I continue to work under Shiri's supervision in the Enhancing Ability Lab on Talkit and Markit (See below) which involves accessibility, human-computer interaction, and augmented reality.
+              </p>
+
+              
+          </div>
+          <div class="col-sm-12 col-md-2">
+            <div class="aside">
+
+            <a class="twitter-timeline" data-lang="en" data-height="400" data-link-color="#2B7BB9" href="https://twitter.com/re_gonzalez10?ref_src=twsrc%5Etfw">Tweets by re_gonzalez10</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+              <a class="twitter-timeline" data-lang="en" data-height="250" data-link-color="#2B7BB9" href="https://twitter.com/re_gonzalez10/likes?ref_src=twsrc%5Etfw">Tweets Liked by @re_gonzalez10</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+    <section class="about-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>About</h1>
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <h5>Words I live by: </h5>
+                <p id="sidep"> There's <strong>no point</strong> in worrying/complaining almost at any instance in <strong>your life</strong>. You are using your very <strong>precious</strong> and <strong>limited time</strong> on something that won't achieve anything and most likely won't help you solve the issue you are struggling with. Use your time to it's fullest potential and enjoy everything you do with it. It's valid to have regrets, but try to make them as rare as possible.
+                                            <br> <br> Value <strong>other's people work</strong> genuinely. When you appreciate things created by other people and you are truly grateful, you feel a sense of duty that gives you <strong>purpose</strong>... one of the strongest drivers to any human being.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="littlecontainer">
+                <img id="shiri" src="images/demo_molder.jpg" alt="Shiri Azenkot to the left side and Ricardo Gonzalez to the right side, between a poster with the title: Molder, an accessible design tool for tactile maps">
+                <p id="imagecap">          My first Research conference <strong>ASSETS'19</strong>, presented Tactiled and Molder's demo.</p>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
-    <!-- What we do Section -->
-    <section id="whatwedo" class="whatwedo-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>What We Do</h1>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Section</h1>
-                </div>
-            </div>
-        </div>
-    </section>
 	
 	<a id="back2Top" title="Back to top" href="#">&#10148;</a>
 	
@@ -101,6 +228,7 @@
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/sticky-menu.js"></script>
+    <script src="js/materialize.js"></script>
 
 </body>
 

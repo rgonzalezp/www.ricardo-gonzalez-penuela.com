@@ -16,6 +16,8 @@ html {
     .top-nav-collapse {
         padding: 0;
     }
+
+    
 }
 #back2Top {
     width: 40px;
@@ -48,13 +50,19 @@ html {
     text-align: center;
     background: #fff;
 }
+.littlecontainer{
+     margin-top:60px;
+     text-align: center;
+    vertical-align: middle;
+}
+
 .about-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #EFDECD;
+    background: #fff;
 }
-.whatwedo-section {
+.project-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
@@ -68,14 +76,53 @@ html {
 }
 .navbar-default .navbar-nav > li > a:hover {
 	color: #333;
-	background-color: #F0F0F0;
+	background-color: #00acee !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #add8e6 !important
+    
 }
 .navbar-default {
     background-color: #EBFAFF;
-    border-color: #e7e7e7;
+    border-color: #00acee ;
 }
 .navbar-default .navbar-nav > li > a {
     color: #000;
+}
+
+.fa {
+  padding: 16px;
+  font-size: 20px !important;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+    .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
 }
 
 

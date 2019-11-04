@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Ricardo Gonzalez Penuela</title>
+    <meta name="description" content="Simplified Bootstrap template with sticky menu">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sticky-menu.css" rel="stylesheet">
+    <link href="css/materialize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+      <!-- Compiled and minified CSS -->
+  
+            
+</head>
+<style>
+
+  * {
+   box-sizing: border-box; 
+  }
+  body {
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+  }
+  #main > article {
+    flex: 1;
+  }
+  #main > nav, 
+  aside {
+
+    background: #00acee;
+  }
+  #main > nav {
+    order: -1;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }
+
+  .navbar-brand{
+    color:black !important;
+  }
+  .collection-item {
+    color: black !important;
+  }
+  p{
+    padding:2rem;
+    font-size: 1.2rem;
+    text-align: left;
+
+}
+#sidep{
+    padding:0;
+    border-top-style: solid;
+    border-color: #00acee;
+    border-bottom-style: solid;
+    padding-top: 10px;
+    padding-bottom:10px;
+    
+
+    
+}
+#mainbody{
+    padding:0;
+    border-top-style: solid;
+    border-color: #00acee;
+    border-left-style: solid;
+    padding-top: 10px;
+    padding-left:10px;
+    
+
+    
+}
+#tactiledimg{
+    margin-top: 2px
+}
+
+  @media screen and (min-device-width : 320px)
+and (max-device-width : 600px){
+  .project-section {
+    margin-top: 1920px;
+}
+p{
+    padding:1rem;
+    font-size: 1.5rem;
+    
+}
+
+#sidep{
+    padding:1rem;
+    text-align: justify;
+    
+}
+
+
+
+
+
+}
+</style>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Ricardo G. Penuela</a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="./index.html">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="./projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="https://github.com/rgonzalezp/My-true-CV/raw/master/Ricardo_Gonzalez_Penuela_CV.pdf">CV</a>
+                    </li>
+                </ul>
+            </div>	<!-- .navbar-collapse -->
+        </div>		<!-- .container -->
+    </nav>
+    <!-- About -->
+    
+    <section >
+        <div class="container">
+            
+            <div class="row">
+            <h2 >Projects: </h2>
+            <div class="row">
+            <div class="col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img id="tactiledimg" class="activator" src="images/tactiled.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Tactiled<i class="material-icons right">more_vert</i></span>
+                
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Tactiled<i class="material-icons right">close</i></span>
+                <p>
+                    <strong>Tactiled</strong> is a tool designed to <strong>identify</strong>  high-quality images that can be transformed into Tactile Graphics. Tactile graphics is the main way for people with visual disabilities access to visual concepts. In order to make <strong>tactile graphics</strong> more available, we designed a system that lets users evaluate standard images to check if they can be transformed, through standard algorithms, into a reliable version of a tactile graphic.
+                    <br>
+                    <br>
+                    Tactiled is a system formed by: (1) A <strong>Machine learning model</strong>  trained with 800 images collected from the American printing House Tactile Library and the researchers; and (2) a <strong>web application</strong>  that lets <strong>teachers of the visually impaired</strong> retrain the model by feeding new images and helping with the classification.
+                </p>
+         
+              </div>
+            </div>
+            </div>
+            
+            <div class="col-md-6 col-sm-12">
+                <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/talkit.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Talkit++<i class="material-icons right">more_vert</i></span>
+               
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Talkit++<i class="material-icons right">close</i></span>
+                <p><strong>Talkit++</strong> is an iOS application that allows a blind user to <strong>interact with an augmented model</strong>. To begin exploring a printed model, a blind user sticks a sticker on her fingernail, and slides the tracker on the printed scaffold. Using a RGB camera, Talkit locates the model by sensing the tracker, and finds the user’s finger by tracking the sticker. Talkit speaks audio information when the user puts the finger with the sticker on an annotated element on the model. The user can also access more information using a speech command. The tracker and stickers are printable and reusable.</p>
+              </div>
+            </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/markit.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Markit<i class="material-icons right">more_vert</i></span>
+                
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Markit<i class="material-icons right">close</i></span>
+                <p><strong>Markit</strong> is an add-on to Blender, a popular 3D modeling application among designers. It provides step-by-step guidance for <strong>creating augmented models</strong> for non-experts. After importing a downloaded model into Markit, a maker can add the tracker scaffold and associate textual annotations with elements on the model. With the model annotated, we can <strong>explore</strong>the annotations through <strong>Talkit++</strong></p>
+              </div>
+            </div>    
+            </div>
+            <div class="col-md-6 col-sm-12">
+             <!-- --> <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">RadVis<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Coming soon.<i class="material-icons right">close</i></span>
+                <p>Coming soon.</p>
+              </div>
+            </div>   <!-- --> 
+            </div>
+        </div> 
+
+
+            
+        </div>
+    </section>
+
+	
+	<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/sticky-menu.js"></script>
+    <script src="js/materialize.js"></script>
+
+</body>
+
+</html>
