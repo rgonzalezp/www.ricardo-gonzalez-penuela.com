@@ -51,7 +51,7 @@ html {
     background: #fff;
 }
 .littlecontainer{
-     margin-top:60px;
+    
      text-align: center;
     vertical-align: middle;
 }
@@ -67,6 +67,9 @@ html {
     padding-top: 150px;
     text-align: center;
     background: #fff;
+}
+.projectsection{
+    margin-top: 100px;
 }
 .contact-section {
     height: 100%;
