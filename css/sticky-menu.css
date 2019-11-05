@@ -127,6 +127,19 @@ html {
   color: white;
 }
 
+ @media screen and (min-device-width : 340px)
+and (max-device-width : 369px){
+  .about-section {
+    margin-top: 1020px;
+    }
+}
+
+ @media screen and (min-device-width : 390px)
+and (max-device-width : 420px){
+  .about-section {
+    margin-top: 880px;
+    }
+}
 
 
 
