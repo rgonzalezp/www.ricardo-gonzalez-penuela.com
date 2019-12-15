@@ -1,0 +1,107 @@
+[
+  {
+  "id": 0,
+  "name": "Bachelor degree in Systems and Computer Engineering",
+  "category": "Education",
+  "placeName": "Universidad de Los Andes",
+  "country": "Colombia",
+  "startDate": "2015-01",
+  "endDate": "2019-12",
+  "description":[""],
+  "skills": [
+    ""
+  ]
+},
+{
+  "id": 1,
+  "name": "Summer Research Intern at Cornell Tech Enhancing Ability Lab (Shiri Azenkot)",
+  "category": "Research",
+  "placeName": "Cornell Tech, worked with Lei Shi and Shiri Azenkot on Talkit and Markit, a 3D interactive model toolkit, to add features and create a pipeline to be used by the public.",
+  "country": "United States",
+  "startDate": "2019-05",
+  "endDate": "2019-08",
+  "description": [""],
+  "skills": [
+    ""
+  ]
+},
+{
+  "id": 2,
+  "name": "Research Volunteer at Cornell Tech Enhancing Ability Lab",
+  "category": "Research",
+  "placeName": "Cornell Tech, continue to work with Shiri Azenkot to deploy Talkit and Markit. Also helped publish Molder.",
+  "country": "United States",
+  "startDate": "2019-08",
+  "endDate": "2020-06",
+  "description": [""],
+  "skills": [
+    ""
+  ]
+},
+{
+  "id": 3,
+  "name": "Test Automation intern at Endava",
+  "category": "Work",
+  "placeName": "Endava",
+  "country": "Colombia",
+  "startDate": "2018-01",
+  "endDate": "2018-07",
+  "description": "",
+  "skills": [
+    ""
+  ]
+},
+{
+  "id": 4,
+  "name": "Research assistant at Universidad de los Andes (John Guerra)",
+  "category": "Research",
+  "placeName": "Worked with John Guerra-Gomez on accessbility and HCI. Made Tactiled. More info in the Research Tab.",
+  "country": "Colombia",
+  "startDate": "2018-07",
+  "endDate": "2018-12",
+  "description": [""],
+  "skills": [
+    ""
+  ]
+},
+{
+  "id": 5,
+  "name": "Research assistant at Universidad de los Andes (Tiberio Hernandez)",
+  "category": "Research",
+  "placeName": "Worked with Jose Tiberio Hernandez on EduRep-Neuro. More info in the Research Tab.",
+  "country": "Colombia",
+  "startDate": "2019-01",
+  "endDate": "2019-12",
+  "description": [""],
+  "skills": [
+    ""
+  ]
+}
+,
+{
+  "id": 6,
+  "name": "Paper for Tactiled accepted in ASSETS'19",
+  "category": "Achievement",
+  "placeName": "Submitted Tactiled paper with John Guerra-Gomez and Carlos Gonzalez. More info in the Research Tab.",
+  "country": "United States",
+  "startDate": "2019-10",
+  "endDate": "2019-10",
+  "description": [""],
+  "skills": [
+    ""
+  ]
+},
+{
+  "id": 7,
+  "name": "Paper for Molder accepted in CHI2020",
+  "category": "Achievement",
+  "placeName": "Submitted Molder full paper with Lei Shi, Yuhang Zhao, Elizabeth Kupferstein and Shiri Azenkot. To appear in April 202. More info in the Research Tab.",
+  "country": "United States",
+  "startDate": "2020-04",
+  "endDate": "2020-04",
+  "description": [""],
+  "skills": [
+    ""
+  ]
+}
+]

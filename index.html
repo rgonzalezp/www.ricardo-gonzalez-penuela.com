@@ -10,11 +10,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/sticky-menu.css" rel="stylesheet">
     <link href="css/materialize.css" rel="stylesheet">
+     <link rel="stylesheet" href="css/timeline.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <style>
-      <!-- Compiled and minified CSS -->
+   
   
             
 </head>
@@ -165,7 +166,7 @@ p{
                         <a class="page-scroll" href="./index.html">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="./research.html">research</a>
+                        <a class="page-scroll" href="./research.html">Research</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="https://github.com/rgonzalezp/My-true-CV/raw/master/Ricardo_Gonzalez_Penuela_CV.pdf">CV</a>
@@ -177,6 +178,9 @@ p{
     <!-- About -->
     <section id="about" class="welcome-section">
     <div class="container">
+      <div class="row">
+        <div id="timelineChart"></div>
+      </div>
         <div  class="row">
             <div class="col-md-9 col-sm-12">
               <h3>Hello there!</h3>
@@ -266,6 +270,10 @@ p{
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/sticky-menu.js"></script>
     <script src="js/materialize.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+   
+    <script src="js/timeline.js"></script>
 
 </body>
 
