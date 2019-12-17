@@ -5,6 +5,12 @@ h2 {
   font-family: 'Thasadith', sans-serif;
   font-size: 32px;
 }
+@media (max-width: 767px) {
+  .twitterside{
+    display: none !important;
+  }
+}
+
 .timeline-base {
   stroke: #444;
   stroke-width: 0.2;
